@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        background-image: url(download.gif);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-attachment: fixed; 
+        color: #E6E6FA;
+        }
+        .navbar {
+            background-color: #6a0dad !important;
+        }
+        .btn-primary {
+            background-color: #8A2BE2;
+            border-color: #8A2BE2;
+        }
+        .btn-primary:hover {
+            background-color: #9400D3;
+            border-color: #9400D3;
+        }
+        .jumbotron {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .card {
+            background-color: #bd74bd;
+            border-color: #DDA0DD;
+        }
+        svg path {
+            fill: #6a0dad;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="jumbotron text-center">
+        <img src="PSKB.png" alt="Fakhri" width="200" class="rounded-circle img-thumbnail" />
+        <h1 class="display-4">M.Fakhri Rizkian</h1>
+        <p class="lead">Student | Web Developer</p>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4">
+                    <p>Saya adalah seorang pelajar di SMK TI BAZMA, mengambil jurusan Sistem Informatika, Jaringan & Aplikasi (SIJA). Dengan minat di bidang teknologi, saya terus belajar dan mengembangkan keterampilan dalam dunia IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="project 1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <p class="card-text">Website Donate dibuat untuk membuka donasi yang menyuarakan kebebasan Palestina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="Project 2.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <p class="card-text">Website Rumah Sakit ini dipublikasikan untuk memberi akses mudah bagi masyarakat secara digital guna memperoleh layanan kesehatan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="Project3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <p class="card-text">Website ChatBot yang digunakan untuk menghibur orang-orang dengan Jokes bapak-bapak.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
