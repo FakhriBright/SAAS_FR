@@ -1,0 +1,48 @@
+body {
+    background-image:url(d.png);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 70px;
+    border-radius: 70px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    background-size: 250px;
+    background-position: top;
+    margin-bottom: 10px;
+    border: 6px solid rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+}
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+  }
